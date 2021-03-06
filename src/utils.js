@@ -1,8 +1,14 @@
 function getNodeIcon(type) {
   if (type === "placeholder") {
-    return `<img alt='placeholder-icon' src='assets/placeholder-icon.png' width='32' height='32' /> `;
-  } else {
-    return `<img alt='placeholder-icon' src='assets/control-icon.png' width='32' height='32' /> `;
+    return `<img alt='placeholder icon' src='assets/placeholder-icon.png' width='32' height='32' /> `;
+  } else if (type === "layout") {
+    return `<img alt='root item icon' src='assets/root-item-icon.png' width='32' height='32' /> `;
+  } else if (type === "rendering") {
+    return `<img alt='rendering icon' src='assets/control-icon.png' width='32' height='32' /> `;
+  } else if (type === "device") {
+    return `<img alt='device icon' src='assets/device-icon.png' width='32' height='32' /> `;
+  } else if (type === "layout") {
+    return `<img alt='layout icon' src='assets/layout-icon.png' width='32' height='32' /> `;
   }
 }
 
@@ -25,7 +31,7 @@ function transformChartData(originalObject) {
 
 // {
 // 	name: "name",
-// 	type: "rendering|placeholder",
+// 	type: "rendering|placeholder|layout|device|item",
 // 	dataSource?: {
 // 		id: "id",
 // 		name: "name",

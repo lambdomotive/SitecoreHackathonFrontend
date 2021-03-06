@@ -2,8 +2,8 @@
   "components": [
     {
       "id": "{11111111-1111-1111-1111-111111111111}",
-      "_type": "placeholder",
-      "name": "Root",
+      "_type": "item",
+      "name": "RootItem",
       "children": [
         {
           "_type": "control",
@@ -47,7 +47,30 @@
           "name": "name",
           "path": "path"
         },
-        "children": []
+        "children": [
+          {
+            "id":"{333333333333333333333333333}",
+            "name": "Layout",
+            "type": "layout",
+            "dataSource": {
+              "id": "{333333333333333333333333333}",
+              "name": "name",
+              "path": "path"
+            },
+            "children": []
+          },
+          {
+            "id":"{333333333333333333333333333}",
+            "name": "AnotherLayout",
+            "type": "layout",
+            "dataSource": {
+              "id": "{333333333333333333333333333}",
+              "name": "name",
+              "path": "path"
+            },
+            "children": []
+          }
+        ]
       },
       {
         "id":"{22222222-2222-2222-2222-222222222222}",
@@ -58,7 +81,30 @@
           "name": "name",
           "path": "path"
         },
-        "children": []
+        "children": [
+          {
+            "id":"{333333333333333333333333333}",
+            "name": "Default",
+            "type": "device",
+            "dataSource": {
+              "id": "{333333333333333333333333333}",
+              "name": "name",
+              "path": "path"
+            },
+            "children": []
+          },
+          {
+            "id":"{333333333333333333333333333}",
+            "name": "RSS",
+            "type": "device",
+            "dataSource": {
+              "id": "{333333333333333333333333333}",
+              "name": "name",
+              "path": "path"
+            },
+            "children": []
+          }
+        ]
       }]
     }
   ]
