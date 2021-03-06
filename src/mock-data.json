@@ -32,13 +32,34 @@
     {
       "id":"{22222222-2222-2222-2222-222222222222}",
       "name": "Content",
-      "type": "placeholder",
+      "type": "rendering",
       "dataSource": {
         "id": "id",
         "name": "name",
         "path": "path"
       },
-      "children": []
+      "children": [{
+        "id":"{22222222-2222-2222-2222-222222222222}",
+        "name": "Content",
+        "type": "rendering",
+        "dataSource": {
+          "id": "id",
+          "name": "name",
+          "path": "path"
+        },
+        "children": []
+      },
+      {
+        "id":"{22222222-2222-2222-2222-222222222222}",
+        "name": "MainPlaceholder",
+        "type": "placeholder",
+        "dataSource": {
+          "id": "id",
+          "name": "name",
+          "path": "path"
+        },
+        "children": []
+      }]
     }
   ]
 }
