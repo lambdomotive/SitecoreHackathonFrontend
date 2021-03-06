@@ -42,7 +42,7 @@ axios
               name: datasourceName,
               path: datasourcePath,
             } = datasource;
-            dataBsContent += `<div><span class='bold'>Datasource:</span> ${datasourceName} ${datasourcePath} (${datasourceId})<div>`;
+            dataBsContent += `<div><span class='bold'>Datasource:</span> ${datasourceName} <code>${datasourcePath}</code> ${datasourceId}<div>`;
           }
           if (
             $(this).parent().children(".node-renderingParameters").length > 0

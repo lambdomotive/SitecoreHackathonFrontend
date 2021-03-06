@@ -1,7 +1,7 @@
 function getNodeIcon(type) {
   if (type === "placeholder") {
     return `<img alt='placeholder icon' src='assets/placeholder-icon.png' width='32' height='32' /> `;
-  } else if (type === "layout") {
+  } else if (type === "item") {
     return `<img alt='root item icon' src='assets/root-item-icon.png' width='32' height='32' /> `;
   } else if (type === "rendering") {
     return `<img alt='rendering icon' src='assets/control-icon.png' width='32' height='32' /> `;

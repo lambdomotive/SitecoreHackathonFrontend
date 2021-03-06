@@ -40,7 +40,15 @@
   font-weight: 600;
 }
 
+.datasource {
+  font-style: italic;
+}
+
 .key-value-list {
   margin-bottom: 0;
   margin-left: 1.5rem;
+}
+
+.popover {
+  max-width: 45vw !important;
 }
