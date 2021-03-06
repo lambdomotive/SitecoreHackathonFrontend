@@ -1,0 +1,15 @@
+{
+  "name": "hackathonfrontend",
+  "version": "1.0.0",
+  "description": "Frontend for Sitecore Hackathon 2021 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^6.5.0",
+    "json-server": "^0.16.3"
+  }
+}
