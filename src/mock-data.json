@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "id": "{11111111-1111-1111-1111-111111111111}",
+      "_type": "placeholder",
+      "name": "Root",
+      "children": [
+        {
+          "_type": "control",
+          "name": "Header"
+        },
+        {
+          "_type": "control",
+          "name": "Content"
+        },
+        {
+          "_type": "control",
+          "name": "Footer",
+          "children": [
+            {
+              "_type": "control",
+              "name": "Contacts"
+            },
+            {
+              "_type": "control",
+              "name": "Links"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"{22222222-2222-2222-2222-222222222222}",
+      "name": "Content",
+      "type": "placeholder",
+      "dataSource": {
+        "id": "id",
+        "name": "name",
+        "path": "path"
+      },
+      "children": []
+    }
+  ]
+}

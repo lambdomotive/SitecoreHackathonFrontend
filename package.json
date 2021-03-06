@@ -4,7 +4,7 @@
   "description": "Frontend for Sitecore Hackathon 2021 project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocks": "json-server --watch src/mock-data.json --id uuid"
   },
   "author": "",
   "license": "ISC",
